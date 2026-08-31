@@ -14,7 +14,11 @@ npaino = naula * naulat
 
 massa = npaino + lepaino + lpaino
 
-print(massa)
+kg = massa / 1000
+gra = int(kg)
+
+print("Massa nykymittojen mukaan: ")
+print(f"{kg:.0f}kg ja {gra}g")
 
 
 
